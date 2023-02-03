@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel='stylesheet' type='text/css' href='./css/dashboard.css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+</head>
+</head>
+<body>
+    <div class="dashboard_container">
+    <div class="container_1">
+        <nav class="navbar">
+            <div class="nav_left">
+                <div class="menu_button"><img src="./images/menu-bar.svg"></div>
+                <div class="logo"><a href="./index.html"><img src="./images/logo.svg"></a></div>
+                <div class="search">
+                    <div class="s_i"><img src="./images/search-icon.svg"></div>
+                    <input type="search" id="isearch" name="isearch" class="s_t" placeholder="Search">
+                </div>
+            </div>
+                <div class="nav_right">
+                <div class="notification"><img src="./images/notification-icon.svg"></div>
+                <div class="profile_pic"><img src="./images/profile.png"></div>
+                <div class="profile">
+                    <div class="user_name">John Doe</div>
+                    <div class="dropdown_arrow"><img src="./images/downward-arrow.svg"></div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container2">
+        <div class="container_sidebar">
+            <div class="sidebar" id="sidebar">
+                <a href="./dashboard.html" class="active" >
+                    <img src="./images/dashboard-active.svg">
+                    <span>dashboard</span>
+                </a>
+                <a href="./inner.html" class="unactive">
+                    <img src="./images/graph-default.svg">
+                    <span>analysis</span>
+                </a>
+                <a href="" class="unactive">
+                    <img src="./images/inbox-default.svg">
+                    <span>inbox</span>
+                </a>
+                <a href="" class="unactive">
+                    <img src="./images/clock-default.svg">
+                    <span>history</span>
+                </a>
+                <a href="" class="unactive">
+                    <img src="./images/user-default.svg">
+                    <span>user</span>
+                </a>
+                <a href="" class="unactive">
+                    <img src="./images/maintenance-default.svg">
+                    <span>maintenace</span>
+                </a>
+                <a href="" class="unactive">
+                    <img src="./images/setting-default.svg">
+                    <span>setting</span>
+                </a>
+            </div>
+        </div>
+        <div class="container_dash" id="demo">
+            <div class="dashboard_title"><h1>Dashboard</h1></div>
+            
+            <div class="company_info">
+                <div class="company_items">
+                    <img src="./images/star.svg">
+                    <div class="items_stat">
+                        <h3>23,456</h3>
+                        <p>New Products</p>
+                    </div>
+                </div>
+                <div class="company_items">
+                    <img src="./images/new-product.svg">
+                    <div class="items_stat">
+                        <h3>2345</h3>
+                        <p>Added Products</p>
+                    </div>
+                </div>
+                <div class="company_items">
+                    <img src="./images/total-product.svg">
+                    <div class="items_stat">
+                        <h3>32456</h3>
+                        <p>Total Products</p>
+                    </div>
+                </div>
+                <div class="company_items">
+                    <img src="./images/dollar-filled.svg">
+                    <div class="items_stat">
+                        <h3>5678</h3>
+                        <p>Today's sale</p>
+                    </div>
+                </div>
+                <div class="company_items">
+                    <img src="./images/money-bag.svg">
+                    <div class="items_stat">
+                        <h3>33,5342</h3>
+                        <p>Total Sale</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="dash_chart">
+                <div class="item1">
+                    <div class="heading" id="demo">
+                        <div class="left">Sale</div>
+                        <div class="right">
+                            <a href="" class="unactive">
+                                Weekly
+                            </a>
+                            <a href="" class="unactive">
+                                Monthly
+                            </a>
+                            <a href="" class="active">
+                                Yearly
+                            </a>
+                        </div>
+                    </div>
+                    <img src="./images/data-graph.png"></div>
+                <div class="item2">
+                    <h3>Sales by Country</h3>
+                    <div class="chart"><img src="./images/pie-chart.svg"></div>
+                    <div class="country">
+                        <div class="list">
+                            <div><i class="fa-solid fa-circle"></i></div><div>United States of America</div>
+                            <div><i class="fa-solid fa-circle"></i></div><div>Canada</div>
+                            <div><i class="fa-solid fa-circle"></i></div><div>Russia</div>
+                            <div><i class="fa-solid fa-circle"></i></div><div>India</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dash_table">
+                <div class="nav">
+                    <h3>Invoices</h3>
+                    <a href="">Veiw All</a>
+                </div>
+                <div class="In_table">
+                    <table>
+                        <tr>
+                            <th>Invoice</th>
+                            <th>Company Name</th>
+                            <th>Email</th>
+                            <th>due date</th>
+                            <th>status</th>
+                            <th>amount</th>
+                        </tr>
+                        <tr>
+                            <td>651535</td>
+                            <td>Public Adjusting Firm</td>
+                            <td>georgia.young@example.com</td>
+                            <td>24 May, 2020</td>
+                            <td><div class="paid">Paid</div></td>
+                            <td>$47,800</td>
+                        </tr>
+                        <tr>
+                            <td>558612</td>
+                            <td>Other</td>
+                            <td>jessica.handson@example.com</td>
+                            <td>24 May, 2020</td>
+                            <td><div class="paid">Paid</div></td>
+                            <td>$98,000</td>
+                        </tr>
+                        <tr>
+                            <td>558612</td>
+                            <td>PVendor</td>
+                            <td>alma.lawson@example.com</td>
+                            <td>8 Sep, 2020</td>
+                            <td><div class="paid">Paid</div></td>
+                            <td>$20,000</td>
+                        </tr>
+                        <tr>
+                            <td>558162</td>
+                            <td>Property Managment Company</td>
+                            <td>Kenzi.lawson@example.com</td>
+                            <td>22 Oct, 2020</td>
+                            <td><div class="paid">Paid</div></td>
+                            <td>$10,570</td>
+                        </tr>
+                        <tr>
+                            <td>651535</td>
+                            <td>Subcontractor Company</td>
+                            <td>jackson.graham@example.com</td>
+                            <td>21 Feb, 2020</td>
+                            <td><div class="failed">Failed</div></td>
+                            <td>$10,200</td>
+                        </tr>
+                        <tr>
+                            <td>651538</td>
+                            <td>Mortgage Company</td>
+                            <td>felica.reid@example.com</td>
+                            <td>22 Oct, 2020</td>
+                            <td><div class="pending">Pending</div></td>
+                            <td>$12,760</td>
+                        </tr>
+                        <tr>
+                            <td>487441</td>
+                            <td>TPA</td>
+                            <td>Dona.young@example.com</td>
+                            <td>24 Sep, 2020</td>
+                            <td><div class="paid">Paid</div></td>
+                            <td>$17,800</td>
+                        </tr>
+                        <tr>
+                            <td>651535</td>
+                            <td>Fire Department</td>
+                            <td>raj.garham@example.com</td>
+                            <td>17 Oct, 2020</td>
+                            <td><div class="failed">Failed</div></td>
+                            <td>$28,800</td>
+                        </tr>
+                        <tr class="no-border">
+                            <td>587441</td>
+                            <td>Somneone</td>
+                            <td>Ross.Lsrson@example.com</td>
+                            <td>24 Aut, 2020</td>
+                            <td><div class="paid">Paid</div></td>
+                            <td>$17,800</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
+
+var x = document.getElementById("demo");
+function openNav() {
+  document.getElementById("sidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("sidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
