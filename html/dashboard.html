@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard Page | Company</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Meta descriptions may be included in search results to concisely summarize page content.">
+    <link rel="shortcut icon" href="images/favicon-icon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header class="header">
+        <button class="btn-menu toggle-sidebar" type="button"><img src="images/menu-icon.svg" alt="sidebar menu">
+        </button>
+        <a href="#" title="Company">
+            <img src="images/logo-admin.svg" alt="logo" class="logo">
+            <img src="images/logo-mobile.svg" alt="logo" class="logo-mobile">
+        </a>
+
+        <div class="search-bar">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-close-search"><img src="./images/close-icon.svg" alt="close"></button>
+        </div>
+
+        <button class="btn btn-search" type="button"><img src="images/bx_bx-search.svg"></button>
+        <div class="dropdown">
+            <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                <img src="./images/bell-icon.svg" class="notification">
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+        <div class="dropdown">
+            <button class=" dropdown-toggle profile" type="button" data-bs-toggle="dropdown">
+                <img src="./images/profile.png">
+                <span>John Doe</span>
+                <img src="./images/dropdown-arrow.svg" class="ic-down">
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">My Profile</a></li>
+                <li><a class="dropdown-item" href="#">Help</a></li>
+                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="main-container">
+        <!-- Main sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link active" href="dashboard.html" title="Dashboard">
+                        <img src="./images/dashboard.svg" alt="dashboard" class="default" />
+                        <img src="./images/dashboard-active.svg" alt="dashboard" class="icon-active" />
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="innerpage.html" title="Analysis">
+                        <img src="./images/graph.svg" alt="graph" class="default" />
+                        <img src="./images/graph-active.svg" alt="graph" class="icon-active" />
+                        <span>Analysis</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Inbox">
+                        <img src="./images/inbox.svg" alt="inbox" class="default" />
+                        <img src="./images/inbox-active.svg" alt="inbox" class="icon-active" />
+                        <span>Inbox</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="History">
+                        <img src="./images/fluent-history.svg" alt="history" class="default" />
+                        <img src="./images/fluent-history-active.svg" alt="history" class="icon-active" />
+                        <span>History</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Users">
+                        <img src="./images/every-user.svg" alt="users" class="default" />
+                        <img src="./images/every-user-active.svg" alt="users" class="icon-active" />
+                        <span>Users</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Maintenance">
+                        <img src="./images/license-maintenance.svg" alt="license" class="default" />
+                        <img src="./images/license-maintenance-active.svg" alt="license" class="icon-active" />
+                        <span>Maintenance</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Setting">
+                        <img src="./images/setting.svg" alt="setting" class="default" />
+                        <img src="./images/setting-active.svg" alt="setting" class="icon-active" />
+                        <span>Setting</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End Main sidebar -->
+
+        <div class="overlay"></div>
+        <!-- Main Content -->
+        <main class="main-content">
+            <h1 class="page-title">Dashboard</h1>
+            <!-- Start Product Detail section -->
+            <div class="row gutter">
+                <div class="dashboard-info">
+                    <div class="col-xl col-sm-4 col-6 detail">
+                        <img src="images/bx_bxs-star.svg" alt="star">
+                        <div>
+                            <p>23,456</p>
+                            <h5>New Products</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl col-sm-4 col-6 detail">
+                        <img src="images/bx_bxs-add-to-queue.svg" alt="queue">
+                        <div>
+                            <p>2345</p>
+                            <h5>Added Products</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl col-sm-4 col-6 detail">
+                        <img src="images/fa-solid_layer-group.svg" alt="layer">
+                        <div>
+                            <p>32,456</p>
+                            <h5>Total Products</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl col-sm-4 col-6 detail">
+                        <img src="images/ri_money-dollar-circle-fill.svg" alt="detail">
+                        <div>
+                            <p>5678</p>
+                            <h5>Today’s Sale</h5>
+                        </div>
+                    </div>
+                    <div class="col-xl col-sm-4 col-6  detail">
+                        <img src="images/healthicons_money-bag.svg" alt="money">
+                        <div>
+                            <p>33,5342</p>
+                            <h5>Total Sale</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Product Detail section -->
+
+            <!-- Start Sales Graph section -->
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="sales-graph">
+                        <div class="sales-title">
+                            <h2>Sales</h2>
+                            <div class="legend">
+                                <button class="btn" type="button">Weekly</button>
+                                <button class="btn" type="button">Monthly</button>
+                                <button class="btn active" type="button">Yearly</button>
+                            </div>
+                        </div>
+                        <img src="images/graph-sales.svg" alt="sales" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="sales-chart">
+                        <h2>Sales by Country</h2>
+                        <div class="responsive-chart">
+                            <img class="img-fluid" src="images/chart.svg" alt="chart">
+                            <div class="legend">
+                                <div>
+                                    <p class="bg-red">United States of America</p>
+                                    <p class="bg-green">Canada</p>
+                                </div>
+                                <div>
+                                    <p class="bg-orange">Russia</p>
+                                    <p class="bg-yellow">India</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Sales Graph section -->
+
+            <!-- Start Invoice Table section -->
+            <div class="invoice-table">
+                <div class="invoice-title">
+                    <h2>Invoice</h2>
+                    <p><a href="#" title="View all">View all</a></p>
+                </div>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Invoice</th>
+                                <th scope="col">Company Name</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Due Date</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Public Adjusting Firm</td>
+                                <td>georgia.young@example.com</td>
+                                <td>24 May, 2020</td>
+                                <td><span class="badge bg-success">Paid</span></td>
+                                <td>$47,800</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">558612</th>
+                                <td>Other</td>
+                                <td>jessica.hanson@example.com</td>
+                                <td>24 May, 2020</td>
+                                <td><span class="badge bg-success">Paid</span></td>
+
+                                <td>$98,000</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">558612</th>
+                                <td>Vendor</td>
+                                <td>alma.lawson@example.com</td>
+                                <td>8 Sep, 2020</td>
+                                <td><span class="badge bg-success">Paid</span></td>
+
+                                <td>$20,900</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">558612</th>
+                                <td>Property Management Company</td>
+                                <td>kenzi.lawson@example.com</td>
+                                <td>22 Oct, 2020</td>
+                                <td><span class="badge bg-success">Paid</span></td>
+
+                                <td>$10,570</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">651535</th>
+                                <td>Subcontractor Company</td>
+                                <td>jackson.graham@example.com</td>
+                                <td>1 Feb, 2020</td>
+                                <td><span class="badge bg-danger">Failed</span></td>
+                                <td>$10,200</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">653518</th>
+                                <td>Mortgage Company</td>
+                                <td>felicia.reid@example.com</td>
+                                <td>22 Oct, 2020</td>
+                                <td><span class="badge bg-secondary">Pending</span></td>
+                                <td>$12,600</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">487441</th>
+                                <td>TPA</td>
+                                <td>dolores.chambers@example.com</td>
+                                <td>21 Sep, 2020</td>
+                                <td><span class="badge bg-success">Paid</span></td>
+                                <td>$11,170</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">267400</th>
+                                <td>Fire Department</td>
+                                <td>nevaeh.simmons@example.com</td>
+                                <td>17 Oct, 2020</td>
+                                <td><span class="badge bg-danger">Failed</span></td>
+                                <td>$28,000</td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">449003</th>
+                                <td>Insurance Carrier</td>
+                                <td>curtis.weaver@example.com</td>
+                                <td>21 Sep, 2020</td>
+                                <td><span class="badge bg-success">Paid</span></td>
+                                <td>$10,000</td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- End Invoice Table section -->
+        </main>
+        <!--End Main Content -->
+
+    </div>
+
+    <!-- JavaScripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
