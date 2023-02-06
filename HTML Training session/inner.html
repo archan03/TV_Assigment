@@ -15,7 +15,7 @@
         <div class="container_1">
             <nav class="navbar">
                 <div class="nav_left">
-                    <div class="menu_button"><img src="./images/menu-bar.svg"></div>
+                    <button id="toggle_class " ><div class="menu_button "><img src="./images/menu-bar.svg"></div></button>
                     <div class="logo"><a href="./index.html"><img src="./images/logo.svg"></a></div>
                     <div class="search">
                         <div class="s_i"><img src="./images/search-icon.svg"></div>
@@ -33,7 +33,7 @@
             </nav>
         </div>
         <div class="container2">
-            <div class="container_sidebar">
+            <div class="container_sidebar active">
                 <div class="sidebar">
                     <a href="./dashboard.html" class="unactive">
                         <img src="./images/dashboard-default.svg">
@@ -174,9 +174,9 @@
                         </div>
                         <h4>Tabs</h4>
                         <div class="tabs">
-                            <a onclick="myFunction1()" id="Tab1" class="tab active ">Tab 1</a>
-                            <a onclick="myFunction2()" id="Tab2" class="tab ">Tab 2</a>
-                            <a onclick="myFunction3()" id="Tab3" class="tab ">Tab 3</a>
+                            <a id="Tab1" class="tab ac ">Tab 1</a>
+                            <a id="Tab2" class="tab ">Tab 2</a>
+                            <a id="Tab3" class="tab ">Tab 3</a>
                             <hr>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
@@ -191,15 +191,8 @@
             </div>
         </div>
     </div>
-    <script>
-        $(document).ready(function() {
-            $('a').click(function() {
-                $('a.tab.active').removeClass("active");
-                $(this).addClass("active");
-            });
-        });
     
-    </script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

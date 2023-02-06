@@ -10,6 +10,18 @@ font-family: Roboto;
     background-color: #FFFFFF;
 }
 
+.container2 .active{
+    display: block !important;
+    /* transition: 2s; */
+}
+.container_sidebar{
+    display: none !important;
+}
+.nav_left button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;;
+}
 /* .container_1 .navbar{
     display: flex;
     justify-content: space-between;
@@ -113,6 +125,7 @@ font-family: Roboto;
     padding-right:25px;
     padding-top: 25px;
     padding-left: 30px;
+    
 }
 .container_sidebar .sidebar .active{
     background-color: #FFF3F4;

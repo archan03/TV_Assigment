@@ -6,6 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 </head>
 <body >
@@ -13,7 +14,7 @@
     <div class="container_1">
         <nav class="navbar">
             <div class="nav_left">
-                <div class="menu_button"><img src="./images/menu-bar.svg"></div>
+                <button id="toggle_class " ><div class="menu_button "><img src="./images/menu-bar.svg"></div></button>
                 <div class="logo"><a href="./index.html"><img src="./images/logo.svg"></a></div>
                 <div class="search">
                     <div class="s_i"><img src="./images/search-icon.svg"></div>
@@ -31,7 +32,7 @@
         </nav>
     </div>
     <div class="container2">
-        <div class="container_sidebar">
+        <div class="container_sidebar active">
             <div class="sidebar" id="sidebar">
                 <a href="./dashboard.html" class="active" >
                     <img src="./images/dashboard-active.svg">
@@ -228,18 +229,7 @@
         </div>
     </div>
 </div>
-<script>
-var w = window.innerWidth;
-var h = window.innerHeight;
 
-var x = document.getElementById("demo");
-function openNav() {
-  document.getElementById("sidenav").style.width = "250px";
-}
-
-function closeNav() {
-  document.getElementById("sidenav").style.width = "0";
-}
-</script>
+    <script src="js/app.js"></script>
 </body>
 </html>
