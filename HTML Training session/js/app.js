@@ -6,6 +6,7 @@
 var menu = document.querySelector("button");
 menu.addEventListener("click",function(){
     document.querySelector(".container_sidebar").classList.toggle("active")
+    document.querySelector(".container2").classList.toggle("active")
 })
 
 $(document).ready(function() {

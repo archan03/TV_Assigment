@@ -10,13 +10,16 @@ font-family: Roboto;
     background-color: #FFFFFF;
 }
 
-.container2 .active{
+.container_sidebar.active{
     display: block !important;
-    /* transition: 2s; */
+    transition:ease-in 2s;
 }
+
 .container_sidebar{
     display: none !important;
+    transition: 0.3s;
 }
+
 .nav_left button{
     background-color: transparent;
     border: none;
@@ -111,14 +114,10 @@ font-family: Roboto;
     background-color: #FAFAFA;
     overflow: hidden;
     width: 100%;
+    justify-content: space-between;
+    
 }
 
-/* .container_sidebar{
-    font-size: 16px;
-    width: 240px;
-    background: #FFFFFF;
-    display: none;
-} */
 
 .container_sidebar .sidebar{
     margin:0;
@@ -151,13 +150,15 @@ font-family: Roboto;
     padding-right: 12.5px;
     color: #3E3E3E;
 }
-
+    .container_dash .company_info{justify-content: space-between;}
 /* dashboard inner */
-
+.active .container_dash{
+    width: calc(100% - 240px);
+}
 .container_dash{
     padding-left: 48px;
     padding-top: 15px;
-    width: 80%;
+    width: 100vw;
 }
 .container_dash .dashboard_title h1{
     font-size: 30px;
@@ -299,6 +300,7 @@ font-family: Roboto;
     padding: 23px 30px 23px 30px;
     margin-bottom: 30px;
     /* width: 100%; */
+    margin-right: 48px;
 }
 
 .container_dash .dash_table .nav{
@@ -369,6 +371,205 @@ font-family: Roboto;
 
 
 
+
+@media only screen and (min-width: 960px) {
+    .container_1 .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 29px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    
+    .container_1 .navbar .nav_left{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    
+    }
+    
+    .container_1 .navbar .nav_left .logo{
+        margin-left: 15px;
+    }
+    .container_1 .navbar .nav_left .logo img{
+        height: 30px;
+        width: 142px;
+    }
+    .container_1 .navbar .nav_left .search{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .s_t{
+        display: block;
+    }
+    .container_1 .navbar .nav_left .search .s_i img{
+        height: 16px;
+        width: 16px;
+        margin-top: 4px;
+    }
+    .container_1 .navbar .nav_left .search input{
+        border: none;
+        outline: none;
+        width: 100%;
+        background: transparent;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    
+    
+    .container_1 .navbar .nav_right{
+        justify-items: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .container_1 .navbar .nav_right .notification{
+        margin-right: 50px;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .container_1 .navbar .nav_right .profile_pic img{
+        border: none;
+        border-radius: 50%;
+        height: 44px;
+        width: 44px;
+        margin-right: 10px;
+    }
+    
+    .container_1 .navbar .nav_right .profile{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .container_1 .navbar .nav_right .profilfe .user_name{
+        font-size: 16px;
+        color: #000000;
+        margin-right: 15px;
+        font-weight: lighter;
+        display: contents;
+    }
+    
+    .container_1 .navbar .nav_right .profile .dropdown_arrow{
+        width: 6px;
+        height: 10px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+    .container_dash .company_info{
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 73vw; */
+        /* justify-content: space-between; */
+        align-items: center;
+    }
+    
+    .container_dash .company_info .company_items{
+        justify-items: center;
+        width: 142px;
+        height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        margin-top: 20px;
+        margin-right: 20px;
+        padding: 0 10px 0 10px;
+    }
+    .container_dash .company_info .company_items img{
+        height: 33.33px;
+        width: 33.33px;
+    
+    }
+    .container_dash .company_info .company_items .items_stat h3{
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    .container_dash .company_info .company_items .items_stat p{
+        margin: 0;
+        padding: 0;
+        font-weight:lighter;
+        font-size: 15px;
+    }
+    .container_sidebar{
+        font-size: 16px;
+        width: 240px;
+        background: #FFFFFF;
+        display: block;
+    }
+    .container_dash .dash_chart{
+        display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 100%;
+    height: max-content;
+    }
+    .container_dash .dash_chart .item1{
+        background-color: #FFFFFF;
+    padding: 24px 30px 29px 30px;
+    width: auto;
+    overflow-x: scroll;
+    /* height: ; */
+    }
+    .container_dash .dash_chart .item2 img{
+        width: 150px;
+    }
+    .container_dash .dash_chart .item1 img{
+        width: 38vw;
+    height: auto;
+    }
+    .container_dash .dash_chart .item1 .heading{
+        margin-bottom: 0;
+    width: 100%;
+    /* position: sticky; */
+    left: 0;
+    }
+    .container_dash .dash_chart .item2 .country .list {
+         font-size: 10px;
+        grid-template-columns: auto auto;}
+    .container_dash .dash_chart .item1 .heading .left{
+        font-weight: lighter;
+        font-size: 15px;
+        color:#3E3E3E;
+    }
+    .container_dash .dash_chart .item1 .heading .right a{
+        margin-right: 10px;
+        text-decoration: none;
+        font-size: 8px;
+        color: #ADADAD;
+    }
+    .container_dash .dash_chart .item1 .heading .right .active{
+        color: #C8242F;
+        padding-bottom: 4px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        width: fit-content;
+    }
+    .container_dash .dash_chart .item2{
+        background-color: #FFFFFF;
+    padding: 0;
+    padding: 0 0px 0 20px;
+    margin-top: 0px;
+    width: auto;
+    margin-right: 45px;
+    }
+    .container_dash .dash_table .nav{
+        margin-bottom: 0;
+    width: 100%;
+    /* position: sticky; */
+    left: 0;
+    }
+    .container_dash .dash_table .In_table{
+        margin-top: 50px;
+    }
+}
 @media only screen and (max-width: 480px) {
     .container_1 .navbar{
         display: flex;
@@ -378,7 +579,12 @@ font-family: Roboto;
         padding-top: 10px;
         padding-bottom: 10px;
         }
-    
+    .container2 .active {
+    display: block !important;
+    /* transition: 2s; */
+    /* background: #d6d6d6; */
+    position: absolute;
+}
     .container_1 .navbar .nav_left{
         display: flex;
         justify-items: center;
@@ -521,7 +727,7 @@ font-family: Roboto;
     .container_dash .dash_chart .item1 .heading{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     
@@ -627,7 +833,7 @@ font-family: Roboto;
     .container_dash .dash_table .nav{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     .container_dash .dash_table .In_table{
@@ -645,7 +851,7 @@ font-family: Roboto;
         padding-top: 10px;
         padding-bottom: 10px;
         }
-    
+       
     .container_1 .navbar .nav_left{
         display: flex;
         justify-items: center;
@@ -730,8 +936,8 @@ font-family: Roboto;
     .container_dash .company_info{
         display: flex;
         flex-wrap:wrap ;
-        width: 90vw;
-        justify-content: space-around;
+        /* width: 90vw; */
+        /* justify-content: space-between; */
         align-items: center;
     }
     
@@ -787,14 +993,14 @@ font-family: Roboto;
     .container_dash .dash_chart .item1{
         background-color: #FFFFFF;
         padding: 24px 30px 29px 30px;
-        width: 100vw;
+        /* width: 100vw; */
         overflow-x: scroll;
     }
     
     .container_dash .dash_chart .item1 .heading{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     
@@ -820,8 +1026,8 @@ font-family: Roboto;
         background-color: #FFFFFF;
         padding: 10px 29px 35px 29px;
         margin-left: 0;
-        margin-top: 30px;
-        width: 100vw;
+        /* margin-top: 30px; */
+        /* width: 100vw; */
     }
     .container_dash .dash_chart .item2 img{
         width: 180px;
@@ -891,15 +1097,15 @@ font-family: Roboto;
     .container_dash .dash_table th{
         padding-right: 36px;
 
-        font-size: 12px !important;
+        font-size: 12px ;
     }
     .container_dash .dash_table td{
-        font-size: 10px !important;
+        font-size: 10px ;
     }
     .container_dash .dash_table .nav{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     .container_dash .dash_table .In_table{
@@ -996,8 +1202,8 @@ font-family: Roboto;
     .container_dash .company_info{
         display: flex;
         flex-wrap: wrap;
-        width: 90vw;
-        justify-content: space-around;
+        /* width: 90vw; */
+        /* justify-content: space-around; */
         align-items: center;
     }
     
@@ -1006,7 +1212,7 @@ font-family: Roboto;
         width: 150px;
         height: 90px;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         align-items: center;
         background-color: #FFFFFF;
         margin-top: 20px;
@@ -1047,14 +1253,14 @@ font-family: Roboto;
     .container_dash .dash_chart .item1{
         background-color: #FFFFFF;
         padding: 24px 30px 29px 30px;
-        width: 100%;
+        /* width: 100%; */
         overflow-x: scroll;
     }
     
     .container_dash .dash_chart .item1 .heading{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     
@@ -1080,8 +1286,8 @@ font-family: Roboto;
         background-color: #FFFFFF;
         padding: 10px 29px 35px 29px;
         margin-left: 0;
-        margin-top: 30px;
-        width: 100%;
+        /* margin-top: 30px; */
+        /* width: 100%; */
     }
     .container_dash .dash_chart .item2 img{
         width: 180px;
@@ -1089,216 +1295,13 @@ font-family: Roboto;
     .container_dash .dash_table .nav{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     .container_dash .dash_table .In_table{
         margin-top: 50px;
     }
 }
-@media only screen and (min-width: 960px) {
-    .container_1 .navbar{
-        display: flex;
-        justify-content: space-between;
-        padding-left: 29px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        }
-    
-    .container_1 .navbar .nav_left{
-        display: flex;
-        justify-items: center;
-        align-items: center;
-    
-    }
-    
-    .container_1 .navbar .nav_left .logo{
-        margin-left: 15px;
-    }
-    .container_1 .navbar .nav_left .logo img{
-        height: 30px;
-        width: 142px;
-    }
-    .container_1 .navbar .nav_left .search{
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        margin-left: 30px;
-    }
-    .s_t{
-        display: block;
-    }
-    .container_1 .navbar .nav_left .search .s_i img{
-        height: 16px;
-        width: 16px;
-        margin-top: 4px;
-    }
-    .container_1 .navbar .nav_left .search input{
-        border: none;
-        outline: none;
-        width: 100%;
-        background: transparent;
-        font-size: 16px;
-        margin-left: 10px;
-    }
-    
-    
-    .container_1 .navbar .nav_right{
-        justify-items: center;
-        align-items: center;
-        display: flex;
-    }
-    
-    .container_1 .navbar .nav_right .notification{
-        margin-right: 50px;
-        height: 20px;
-        width: 20px;
-    }
-    
-    .container_1 .navbar .nav_right .profile_pic img{
-        border: none;
-        border-radius: 50%;
-        height: 44px;
-        width: 44px;
-        margin-right: 10px;
-    }
-    
-    .container_1 .navbar .nav_right .profile{
-        display: flex;
-        justify-items: center;
-        align-items: center;
-    }
-    
-    .container_1 .navbar .nav_right .profilfe .user_name{
-        font-size: 16px;
-        color: #000000;
-        margin-right: 15px;
-        font-weight: lighter;
-        display: contents;
-    }
-    
-    .container_1 .navbar .nav_right .profile .dropdown_arrow{
-        width: 6px;
-        height: 10px;
-        margin-right: 50px;
-        margin-bottom: 10px;
-    }
-    .container_dash .company_info{
-        display: flex;
-        flex-wrap: wrap;
-        width: 73vw;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
-    .container_dash .company_info .company_items{
-        justify-items: center;
-        width: 142px;
-        height: 90px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #FFFFFF;
-        margin-top: 20px;
-        margin-right: 20px;
-        padding: 0 10px 0 10px;
-    }
-    .container_dash .company_info .company_items img{
-        height: 33.33px;
-        width: 33.33px;
-    
-    }
-    .container_dash .company_info .company_items .items_stat h3{
-        font-size: 25px;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;
-    }
-    .container_dash .company_info .company_items .items_stat p{
-        margin: 0;
-        padding: 0;
-        font-weight:lighter;
-        font-size: 15px;
-    }
-    .container_sidebar{
-        font-size: 16px;
-        width: 240px;
-        background: #FFFFFF;
-        display: block;
-    }
-    .container_dash .dash_chart{
-        display: flex;
-    margin-top: 30px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-right: 30px;
-    width: 100%;
-    height: max-content;
-    }
-    .container_dash .dash_chart .item1{
-        background-color: #FFFFFF;
-    padding: 24px 30px 29px 30px;
-    width: auto;
-    overflow-x: scroll;
-    /* height: ; */
-    }
-    .container_dash .dash_chart .item2 img{
-        width: 150px;
-    }
-    .container_dash .dash_chart .item1 img{
-        width: 38vw;
-    height: auto;
-    }
-    .container_dash .dash_chart .item1 .heading{
-        margin-bottom: 0;
-    width: 100%;
-    position: sticky;
-    left: 0;
-    }
-    .container_dash .dash_chart .item2 .country .list {
-         font-size: 10px;
-        grid-template-columns: auto auto;}
-    .container_dash .dash_chart .item1 .heading .left{
-        font-weight: lighter;
-        font-size: 15px;
-        color:#3E3E3E;
-    }
-    .container_dash .dash_chart .item1 .heading .right a{
-        margin-right: 10px;
-        text-decoration: none;
-        font-size: 8px;
-        color: #ADADAD;
-    }
-    .container_dash .dash_chart .item1 .heading .right .active{
-        color: #C8242F;
-        padding-bottom: 4px;
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        width: fit-content;
-    }
-    .container_dash .dash_chart .item2{
-        background-color: #FFFFFF;
-    padding: 0;
-    padding: 0 0px 0 20px;
-    margin-top: 0px;
-    width: auto;
-    margin-right: 45px;
-    }
-    .container_dash .dash_table{
-        width: 87%;
-        margin-right: 30px;
-    }
-    .container_dash .dash_table .nav{
-        margin-bottom: 0;
-    width: 100%;
-    position: sticky;
-    left: 0;
-    }
-    .container_dash .dash_table .In_table{
-        margin-top: 50px;
-    }
-}
-
 @media only screen and (min-width: 1240px) {
     
     .container_1 .navbar{
@@ -1456,7 +1459,7 @@ font-family: Roboto;
     .container_dash .dash_chart .item1 .heading{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     .container_dash .dash_chart .item2 .country .list {
@@ -1488,14 +1491,10 @@ font-family: Roboto;
     width: auto;
     margin-right: 45px;
     }
-    .container_dash .dash_table{
-        width: 90%;
-        margin-right: 0;
-    }
     .container_dash .dash_table .nav{
         margin-bottom: 0;
     width: 100%;
-    position: sticky;
+    /* position: sticky; */
     left: 0;
     }
     .container_dash .dash_table .In_table{
@@ -1503,6 +1502,7 @@ font-family: Roboto;
     }
     /* styles for browsers larger than 1440px; */
 }
+
 @media only screen and (min-width: 2000px) {
     /* for sumo sized (mac) screens */
 }
