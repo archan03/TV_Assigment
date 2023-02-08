@@ -971,9 +971,12 @@ border: 1px solid #C8242F !important;
   letter-spacing: 0px;
  }
  
+/* 
+ @media only screen and (max-width: 480px){
+ .container2 .active {
+     position: absolute !important;
+ } */
 
-@media  (min-width: 768px)  {
-}
 /* 
 @media  (min-width: 768px) {
   .container_sidebar{display: block ;}

@@ -150,10 +150,13 @@ font-family: Roboto;
     padding-right: 12.5px;
     color: #3E3E3E;
 }
-    .container_dash .company_info{justify-content: space-between;}
+    .container_dash .company_info{
+        justify-content: space-between;
+        padding-right: 48px;}
 /* dashboard inner */
 .active .container_dash{
     width: calc(100% - 240px);
+    
 }
 .container_dash{
     padding-left: 48px;
@@ -206,14 +209,19 @@ font-family: Roboto;
 .container_dash .dash_chart{
     display: flex;
     margin-top: 30px;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 30px;
     width: 100%;
+    width: 100%;
+    /* background-color: white; */
 }
 
 .container_dash .dash_chart .item1{
     background-color: #FFFFFF;
     padding: 24px 30px 29px 30px;
+    /* width:80vw; */
+    text-align:center;
+    /* margin-right:20px; */
 }
 
 .container_dash .dash_chart .item1 .heading{
