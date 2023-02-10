@@ -1,0 +1,713 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/obj/Debug/net6.0/scopedcss/projectbundle/CI Platform.bundle.scp.css",
+      "PackagePath": "staticwebassets/CI Platform.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/css/Forgot_password.css",
+      "PackagePath": "staticwebassets/css/Forgot_password.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/css/registration.css",
+      "PackagePath": "staticwebassets/css/registration.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/css/reset.css",
+      "PackagePath": "staticwebassets/css/reset.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/404-Page-image.png",
+      "PackagePath": "staticwebassets/image/404-Page-image.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Already-volunteered.png",
+      "PackagePath": "staticwebassets/image/Already-volunteered.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Animal-welfare-&-save-birds-campaign-1.png",
+      "PackagePath": "staticwebassets/image/Animal-welfare-&-save-birds-campaign-1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Animal-welfare-&-save-birds-campaign.png",
+      "PackagePath": "staticwebassets/image/Animal-welfare-&-save-birds-campaign.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-2.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-4.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-5.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-5.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-6.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-6.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png",
+      "PackagePath": "staticwebassets/image/CSR-initiative-stands-for-Coffee--and-Farmer-Equity.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png",
+      "PackagePath": "staticwebassets/image/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Education-Supplies-for-Every--Pair-of-Shoes-Sold-2.png",
+      "PackagePath": "staticwebassets/image/Education-Supplies-for-Every--Pair-of-Shoes-Sold-2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Education-Supplies-for-Every--Pair-of-Shoes-Sold.png",
+      "PackagePath": "staticwebassets/image/Education-Supplies-for-Every--Pair-of-Shoes-Sold.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability-1.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability-1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability-2.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability-2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability-3.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability-3.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability-4.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability-4.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability-5.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability-5.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability-login.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability-login.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Grow-Trees-On-the-path-to-environment-sustainability.png",
+      "PackagePath": "staticwebassets/image/Grow-Trees-On-the-path-to-environment-sustainability.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Nourish-the-Children-in--African-country-1.png",
+      "PackagePath": "staticwebassets/image/Nourish-the-Children-in--African-country-1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Nourish-the-Children-in--African-country.png",
+      "PackagePath": "staticwebassets/image/Nourish-the-Children-in--African-country.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Open-Volunteering-Requests.png",
+      "PackagePath": "staticwebassets/image/Open-Volunteering-Requests.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Plantation-and-Afforestation-programme-1.png",
+      "PackagePath": "staticwebassets/image/Plantation-and-Afforestation-programme-1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Plantation-and-Afforestation-programme.png",
+      "PackagePath": "staticwebassets/image/Plantation-and-Afforestation-programme.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Seats-left.png",
+      "PackagePath": "staticwebassets/image/Seats-left.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Volunteering-Rank.png",
+      "PackagePath": "staticwebassets/image/Volunteering-Rank.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/Voted-Missions.png",
+      "PackagePath": "staticwebassets/image/Voted-Missions.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/achieved.png",
+      "PackagePath": "staticwebassets/image/achieved.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/add.png",
+      "PackagePath": "staticwebassets/image/add.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/add1.png",
+      "PackagePath": "staticwebassets/image/add1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/arrow.png",
+      "PackagePath": "staticwebassets/image/arrow.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/bell-big.png",
+      "PackagePath": "staticwebassets/image/bell-big.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/bell.png",
+      "PackagePath": "staticwebassets/image/bell.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/bin.png",
+      "PackagePath": "staticwebassets/image/bin.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/calender.png",
+      "PackagePath": "staticwebassets/image/calender.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/cancel.png",
+      "PackagePath": "staticwebassets/image/cancel.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/cancel1.png",
+      "PackagePath": "staticwebassets/image/cancel1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/checked.png",
+      "PackagePath": "staticwebassets/image/checked.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/cross.png",
+      "PackagePath": "staticwebassets/image/cross.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/deadline.png",
+      "PackagePath": "staticwebassets/image/deadline.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/doc.png",
+      "PackagePath": "staticwebassets/image/doc.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/down.png",
+      "PackagePath": "staticwebassets/image/down.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/drag-and-drop.png",
+      "PackagePath": "staticwebassets/image/drag-and-drop.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/drop-down.png",
+      "PackagePath": "staticwebassets/image/drop-down.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/eye.png",
+      "PackagePath": "staticwebassets/image/eye.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/facebook.png",
+      "PackagePath": "staticwebassets/image/facebook.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/filter.png",
+      "PackagePath": "staticwebassets/image/filter.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/gift.png",
+      "PackagePath": "staticwebassets/image/gift.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/graph.png",
+      "PackagePath": "staticwebassets/image/graph.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/grid.png",
+      "PackagePath": "staticwebassets/image/grid.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/heart.png",
+      "PackagePath": "staticwebassets/image/heart.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/heart1.png",
+      "PackagePath": "staticwebassets/image/heart1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/hours.png",
+      "PackagePath": "staticwebassets/image/hours.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/image.png",
+      "PackagePath": "staticwebassets/image/image.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/image1.png",
+      "PackagePath": "staticwebassets/image/image1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/image2.png",
+      "PackagePath": "staticwebassets/image/image2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img.png",
+      "PackagePath": "staticwebassets/image/img.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img1.png",
+      "PackagePath": "staticwebassets/image/img1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img11.png",
+      "PackagePath": "staticwebassets/image/img11.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img2.png",
+      "PackagePath": "staticwebassets/image/img2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img22.png",
+      "PackagePath": "staticwebassets/image/img22.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img3.png",
+      "PackagePath": "staticwebassets/image/img3.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/img33.png",
+      "PackagePath": "staticwebassets/image/img33.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/info.png",
+      "PackagePath": "staticwebassets/image/info.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/left.png",
+      "PackagePath": "staticwebassets/image/left.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/left1.png",
+      "PackagePath": "staticwebassets/image/left1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/linkedin.png",
+      "PackagePath": "staticwebassets/image/linkedin.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/list.png",
+      "PackagePath": "staticwebassets/image/list.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/logo.png",
+      "PackagePath": "staticwebassets/image/logo.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/mission.png",
+      "PackagePath": "staticwebassets/image/mission.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/my-story.png",
+      "PackagePath": "staticwebassets/image/my-story.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/new-message.png",
+      "PackagePath": "staticwebassets/image/new-message.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/next.png",
+      "PackagePath": "staticwebassets/image/next.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/organization.png",
+      "PackagePath": "staticwebassets/image/organization.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/pdf.png",
+      "PackagePath": "staticwebassets/image/pdf.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/pin.png",
+      "PackagePath": "staticwebassets/image/pin.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/pin1.png",
+      "PackagePath": "staticwebassets/image/pin1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/previous.png",
+      "PackagePath": "staticwebassets/image/previous.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/right-arrow.png",
+      "PackagePath": "staticwebassets/image/right-arrow.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/right-arrow1.png",
+      "PackagePath": "staticwebassets/image/right-arrow1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/right-arrow2.png",
+      "PackagePath": "staticwebassets/image/right-arrow2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/right-white.png",
+      "PackagePath": "staticwebassets/image/right-white.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/right.png",
+      "PackagePath": "staticwebassets/image/right.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/search.png",
+      "PackagePath": "staticwebassets/image/search.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/selected-star.png",
+      "PackagePath": "staticwebassets/image/selected-star.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/settings.png",
+      "PackagePath": "staticwebassets/image/settings.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/star-empty.png",
+      "PackagePath": "staticwebassets/image/star-empty.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/star.png",
+      "PackagePath": "staticwebassets/image/star.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/twitter.png",
+      "PackagePath": "staticwebassets/image/twitter.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/up.png",
+      "PackagePath": "staticwebassets/image/up.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/user-img-large.png",
+      "PackagePath": "staticwebassets/image/user-img-large.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/user-img.png",
+      "PackagePath": "staticwebassets/image/user-img.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/user.png",
+      "PackagePath": "staticwebassets/image/user.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/user1.png",
+      "PackagePath": "staticwebassets/image/user1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer1.png",
+      "PackagePath": "staticwebassets/image/volunteer1.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer2.png",
+      "PackagePath": "staticwebassets/image/volunteer2.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer3.png",
+      "PackagePath": "staticwebassets/image/volunteer3.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer4.png",
+      "PackagePath": "staticwebassets/image/volunteer4.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer5.png",
+      "PackagePath": "staticwebassets/image/volunteer5.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer6.png",
+      "PackagePath": "staticwebassets/image/volunteer6.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer7.png",
+      "PackagePath": "staticwebassets/image/volunteer7.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer8.png",
+      "PackagePath": "staticwebassets/image/volunteer8.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/volunteer9.png",
+      "PackagePath": "staticwebassets/image/volunteer9.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/web.png",
+      "PackagePath": "staticwebassets/image/web.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/image/xlsx.png",
+      "PackagePath": "staticwebassets/image/xlsx.png"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/archan/Desktop/CI Platform/CI Platform/CI Platform/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.CI Platform.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.CI Platform.props",
+      "PackagePath": "build\\CI Platform.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.CI Platform.props",
+      "PackagePath": "buildMultiTargeting\\CI Platform.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.CI Platform.props",
+      "PackagePath": "buildTransitive\\CI Platform.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
